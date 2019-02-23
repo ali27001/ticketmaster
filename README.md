@@ -1,9 +1,14 @@
 #Task
 Vue.js ile bir SPA (Single Page Application)  vue cli ile  proje oluşturmak
+
 Ticketmaster'ın public API servisine istek atarak ilgili keyworde ait dönen sonuçları oluşturacağımız table componenti içerisinde göstermek. 
+
 Css frameworkü olarak bootstrap 4 kullanabilirsin.
+
 Table componenti api cevabında dönen thumbnaili de içeriyor olmalı. 
+
 Verileri listelerken pagination içeriyor olmalı. 
+
 Table actionlarında detay ikonuna tıklayarak ilgili etkinliğin detayını gösteren sayfaya yönlendirmek
 
 HTTP isteklerini axios kullanarak yapabilirsin. 
