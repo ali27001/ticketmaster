@@ -2,7 +2,8 @@
   <ul class="pagination" :class="paginationClass">
     <li class="page-item" @click="prevPage"  :class="{disabled: value === 1}">
       <a href="javascript:void(0)" class="page-link" aria-label="Previous">
-        <i class="fa fa-angle-double-left" aria-hidden="true"></i>
+        <span aria-hidden="true">«</span>
+        <span class="sr-only">Geri</span>
       </a>
     </li>
     <li class="page-item" :class="{active: value === item}" v-for="item in range(minPage, maxPage)">
@@ -10,14 +11,15 @@
     </li>
     <li class="page-pre" :class="{disabled: value === totalPages}">
       <a href="javascript:void(0)" class="page-link" aria-label="Next" @click="nextPage">
-        <i class="fa fa-angle-double-right" aria-hidden="true"></i>
+        <span aria-hidden="true">&raquo;</span>
+        <span class="sr-only">İleri</span>
       </a>
     </li>
   </ul>
 </template>
 <script>
   export default{
-    name: 'p-pagination',
+    name: 'pagination',
     props: {
       type: {
         type: String,
