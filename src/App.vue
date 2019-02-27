@@ -6,13 +6,12 @@
 
 <script>
 
-  import  Table from './componenst/Table'
-  import  TableDetail from './componenst/TableDetail'
-  import  axios from 'axios'
+  import  Table from './componenst/view/Table'
+  import  TableDetail from './componenst/view/TableDetail'
 
 export default {
   name: 'app',
-  components: {TableDetail, Table },
+  components: {Table,TableDetail },
 
   data () {
     return {

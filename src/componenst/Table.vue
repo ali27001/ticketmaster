@@ -65,7 +65,7 @@
     methods: {
       getPosts() {
         this.isLoading = true;
-        var self = this;
+        let self = this;
         axios.get('https://app.ticketmaster.com/discovery/v2/events?apikey=7elxdku9GGG5k8j0Xm8KWdANDgecHMV0&countryCode=US&page=' + self.page)
           .then(function (response) {
             self.isLoading = false;
