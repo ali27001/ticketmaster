@@ -50,7 +50,7 @@
            <div class="card">
               <b>Info</b>
               <p  v-if="sonuc.info">{{sonuc.info}}</p>
-              <p  v-else>Açıklama Bilgisi <Bulunmuyor></Bulunmuyor></p>
+              <p  v-else>Açıklama Bilgisi Bulunmuyor</p>
             </div>
           <div class="card">
             <b>Sales</b>
