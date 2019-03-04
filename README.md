@@ -1,3 +1,6 @@
+table http://prntscr.com/mt68m4
+table detail http://prntscr.com/mt692r
+
 #Task
 Vue.js ile bir SPA (Single Page Application)  vue cli ile  proje oluşturmak
 
